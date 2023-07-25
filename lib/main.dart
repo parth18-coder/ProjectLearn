@@ -47,15 +47,50 @@ class _MyHomePageState extends State<MyHomePage> {
         // the App.build method, and use it to set our appbar title.
         title: Text(widget.title),
       ),
-      body: Center(
-        child: Container(
-          width: 100,
-          height: 100,
-          color: Colors.deepOrange,
-          child: Text("hello Developersss"),
-        ),
-      )
+      body: Image.asset('assets/images/image1.png')
     );
 
   }
 }
+
+/*
+body: TextButton(
+        child:Text("click me"),
+        onPressed: (){
+          print("hello print on terminal")
+        },
+        onLongPress: (){
+
+        }
+      )
+ */
+
+/*
+body  : ElevatedButton(
+          child: Text("click me"),
+
+)
+
+body : OutLined(
+      child: Text(""),
+      )
+ */
+
+
+/*
+Center(
+        child: Container(
+          width: 100,
+          height: 100,
+          color: Colors.deepOrange,
+          child: Center(
+            child: Text("Hello Parth",style: TextStyle(
+              fontSize: 25,
+              color: Colors.green,
+              fontWeight: FontWeight.bold,
+              backgroundColor: Colors.lightBlue,
+            ),),
+          )
+        ),
+      )
+ */
